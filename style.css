@@ -1,5 +1,8 @@
+/*fonte jost que importei do google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*coloquei a margem do body em 0px para evitar futuras dores de cabeça com o posicionamento das divs*/
 
 body{
     margin: 0px;
@@ -33,6 +36,8 @@ footer > a{
     margin: 10px;
 }
 
+
+/*css que usei para fixar o header no topo da pagina*/
 #fixed-header{
     position: sticky;
     top: 0;
@@ -43,8 +48,7 @@ footer > a{
     text-align: center;
 }
 
-
-
+/*background da pagina de boas vindas*/
 article{
     height: 100vh;
     background: url(img/xilogravura-elemento-comum-na-literatura-de-cordel-uma-das-expressoes-da-cultura-popular-do-nordeste.jpg) no-repeat bottom center scroll;
@@ -55,6 +59,7 @@ article{
     margin-top: 50px;
 }
 
+/*cor cinza que eu coloquei em cima da imagem de xilogravura*/
 #color{
     background-color: lightgray;
     height: 100vh;
@@ -71,13 +76,21 @@ article{
     transform: translate(50%,-50%);
 }
 
+
+/*div com o cordel de boas vindas*/
 #boas-vindas{
     background-color: #FAB646;
-    height: 300px;
+    height: 425px;
 
     font-family: jost;
 }
 
-#boas-vindas > p,h1{
+#boas-vindas > p{
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+#boas-vindas > h1{
     margin-left: 50px;
+    font-size: 45px;
 }
